@@ -1,0 +1,16 @@
+#Inputing block
+name = input('Enter your name: ')      
+surname = input('Enter your surname: ')
+phone_number = input('Enter your phone number: ')
+street = input('Enter your street name: ')
+house_number = input('Enter your house number: ')
+apartment_number = input('Enter your apartment number: ')
+town = input('Enter your city : ')
+index = input('Enter your postcode: ')
+country = input('Enter your country: ') 
+#outputing block
+print(name, surname)
+print(phone_number)
+print("Str.", street,",", "ap.", house_number,",", apartment_number, town)
+print(index)
+print(country)
